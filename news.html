@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dream University</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="Images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        
+
+        <nav>
+            <a class="logo" href="index.html"><img src="Images/New logo.png" alt="Logo">
+                <h2 class="logo-word">The<br> Dream<br>University</h2></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1 id="news-header">Scholarship Openings for 2022</h1>
+
+    </section>
+
+<!-------------------NEWS---------------------->
+    <section class="news-content">
+        <div class="row">
+
+            <div class="news-left">
+                <img src="Images/Certification.jpg">
+                <h2>Scholarship (full & part) Openings for 2022</h2>
+                <p>Scholarship is a financial aid provided to a student on certain grounds, usually 
+                    academic merit. Scholarship, unlike student loans, does not have to be paid 
+                    back and they are a nice approach to assist students in attaining their 
+                    academic aspirations. They are funds awarded to relieve students 
+                    (prospective and already enrolled) and their families of a significant part of the 
+                    financial commitments of higher education. Scholarships are awarded by different 
+                    organisations and bodies for both undergraduate and postgraduate studies in this university.</p><br>
+
+                <p>There are more than 700 scholarships in the field of education and research. 
+                    Students will get contact details of our partners that offer scholarship 
+                    programs when they select the degree level and course in which they are planning to 
+                    continue their education.
+                    Once doctoral students complete their degree courses, they will get employment notifications,
+                    job alerts, and interview calls from reputed global business conglomerates and industries.</p><br>
+                
+                <p>Eligibility for a scholarship depends entirely on the scholarship; there is no general
+                    rule of thumb on whether you are eligible for a financial award. Some scholarships 
+                    require students to have a certain TOEFL score; some ask that you are from a certain 
+                    country; some ask for you to have a certain grade point average. You will need to do 
+                    your own research to see if you are eligible for a scholarship. It can be confusing, 
+                    but our university admissions officers and financial aid experts are avaialble to 
+                    help you get as much money as you qualify for.</p><br>
+
+                <p>Apply for any of the available scholarships and stay glued to your email
+                    for updates about your application. Kindly note that this is only applicable
+                    for those who have been admitted into any of our programs as your admission 
+                    letter will be important in your application process.
+                </p><br>   
+                    
+                <div class="enquiry-box">
+                    <h3>Ask your question</h3>
+
+                    <form class="enquiry-form" action="">
+                        <input type="text" placeholder="Full name">
+                        <input type="email" placeholder="Email">
+                        <textarea rows="5" placeholder="Ask question">Your question</textarea>
+                        <button type="submit" class="button" id=click>Submit question</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="news-right">
+
+                <h3>Scholarship Categories</h3>
+                <div>
+                    <span>Commonwealth Scholarship</span>
+                    <span>15</span>
+                </div>
+
+                <div>
+                    <span>James Ajayi Scholarship</span>
+                    <span>100</span>
+                </div>
+
+                <div>
+                    <span>WHO Scholarship</span>
+                    <span>28</span>
+                </div>
+
+                <div>
+                    <span>UNESCO Scholarship</span>
+                    <span>10</span>
+                </div>
+
+                <div>
+                    <span>Microsoft Scholarship</span>
+                    <span>55</span>
+                </div>
+
+                <div>
+                    <span>Rockefellar Scholarship</span>
+                    <span>2</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+<!--------------------FOOTER-------------------->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Everyone deserves to see their dreams come to pass and we are positioned as the world 
+        destination for dreams to be nutured till they eventually come to pass.</p>
+
+    <div class="icon">
+        <i class="fa fa-facebook" id="for"></i>
+        <i class="fa fa-twitter" id="for"></i>
+        <i class="fa fa-instagram" id="for"></i>
+        <i class="fa fa-linkedin" id="for"></i>
+    </div>
+
+    <p id="copyright"><i class="fa fa-copyright" id="fo"></i> Mayokun 2022</p>
+</section>
+    
+<script>
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu() {
+        navlinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navlinks.style.right = "-200px";
+    }
+</script>
+</body>
+
+</html>

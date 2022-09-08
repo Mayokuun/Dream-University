@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dream University</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="Images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        
+
+        <nav>
+            <a class="logo" href="index.html"><img src="Images/New logo.png" alt="Logo">
+                <h2 class="logo-word">The<br> Dream<br>University</h2></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1 class="contact-header">Contact Us</h1>
+
+    
+    </section>
+
+<!------------------CONTACT US------------------>
+
+ <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126614.56007354546!
+    2d3.9050604999999994!3d7.38691745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1
+    0398d77eeff086f%3A0x3b33e0f76e8e04a9!2sIbadan!5e0!3m2!1sen!2sng!4v1662551320664!5m2!
+    1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+ </section> 
+
+ <section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home" id="call"></i>
+                <span>
+                    <h5>ABC Street, ABC House</h5>
+                    <p>Iwo Road, Ibadan, Nig.</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone" id="call"></i>
+                <span>
+                    <h5>+234 9123456789</h5>
+                    <p>Monday - Friday, 9am - 4pm</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope-o" id="call"></i>
+                <span>
+                    <h5>ajayijames.m@hotmail.com</h5>
+                    <p>Reach me via email</p>
+                </span>
+            </div>
+           
+        </div>
+
+        <div class="contact-col">
+            <form action="file handler.php" method="post">
+                <input type="text" name="Name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <input type="text" name="Subject" placeholder="Your subject" required>
+                <textarea rows="8" name="Message" placeholder="Message"></textarea>
+                <button type="submit" id="click" class="button send">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+ </section>
+
+<!--------------------FOOTER-------------------->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Everyone deserves to see their dreams come to pass and we are positioned as the world 
+        destination for dreams to be nutured till they eventually come to pass.</p>
+
+    <div class="icon">
+        <i class="fa fa-facebook" id="for"></i>
+        <i class="fa fa-twitter" id="for"></i>
+        <i class="fa fa-instagram" id="for"></i>
+        <i class="fa fa-linkedin" id="for"></i>
+    </div>
+
+    <p id="copyright"><i class="fa fa-copyright" id="fo"></i> Mayokun 2022</p>
+</section>
+    
+<script>
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu() {
+        navlinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navlinks.style.right = "-200px";
+    }
+</script>
+</body>
+
+</html>
